@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 50px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ body {
+    font: 10pt Arial, Helvetica, sans-serif; 
+    background: #133CAC; /* гл фон*/
+   }
+   h2 {
+    font-size: 1.1em; 
+    color: #00008B; 
+    margin-top: 0; 
+   }
+    #foto {
+    float:left;
+    margin: 4px 10px 2px 0px; 
+    width: 100px;
+    height: 150px;
+   }
+   h5 {
+    font-size: 5pt; 
+    color: #483D8B; 
+    margin-top: 0; 
+   }
+    h4 {
+    font-size: 7pt; 
+    color: #008080; 
+    margin-top: 0; 
+   }
+   #container {
+    width: 500px;
+    margin: 0 auto; 
+    background: #476DD5; /*öâåò ôîíà îòîáðàæåíèÿ ññûëîê */
+   }
+   #header {
+    font-size: 12pt; 
+    text-align: center; 
+    padding: 5px; 
+    background: #062270; /*öâåò ôîíà øàïêè */
+    color: #ffe; 
+   }
+   #sidebar {
+    margin-top: 10px; 
+    width: 110px; /* Oe?eia neiy */
+    padding: 0 10px; /* Ionooiu aie?oa oaenoa */
+    float: left; /* Iaoaeaiea ii i?aaiio e?a? */
+   }
+   #content {
+    margin-left: 130px; /* Ionooi neaaa */
+    padding: 10px; /* Iiey aie?oa oaenoa */
+    background: #fff; /* Oaao oiia i?aaie eieiiee */
+   }
+   #footer {
+    background: #6D89D5; /* ãäå èìÿ ðàçðàáîò÷èêà */
+    color: #fff; /* Oaao oaenoa */
+    padding: 5px; /* Ionooiu aie?oa oaenoa */
+    clear: left; /* Ioiaiyai aaenoaea float */
+    font-size: 5pt;
+   }
+
+   .logo{
+    width:50px;
+    height:50px;
+    align:middle;
+   }
